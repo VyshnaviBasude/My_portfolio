@@ -6,6 +6,8 @@ import Tech from './Tech';
 import Websites from './Websites';
 import Footer from './Footer';
 import Projects from './Projects';
+import Achievements from './Achievements';
+import Contact from './Contact';
 
 export {
   Hero,
@@ -15,5 +17,7 @@ export {
   Tech,
   Websites,
   Projects,
+  Achievements,
+  Contact,
   Footer
 }

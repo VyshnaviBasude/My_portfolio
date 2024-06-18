@@ -7,7 +7,7 @@ import { resumeLink } from '../constants';
 
 const Resume = () => {
     const { isLight } = useContext(context);
-    
+    console.log('In resume');
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [])
@@ -18,11 +18,12 @@ const Resume = () => {
             method: 'GET'
         }).then(resp => resp.blob())
             .then(blob => {
+                console.log('resumeLink',resumeLink);
                 const url = window.URL.createObjectURL(blob);
                 const a = document.createElement('a');
                 a.style.display = 'none';
                 a.href = url;
-                a.download = "AayushGuptaResume.pdf";
+                a.download = "Vyshnavibasude_resume.pdf";
                 document.body.appendChild(a);
                 a.click();
                 window.URL.revokeObjectURL(url);

@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { Navbar, Hero, About, Tech, Websites, Footer, Projects } from './components';
+import { Navbar, Hero, About, Tech, Websites, Footer, Projects, Achievements, Contact } from './components';
 import { context } from './App';
 
 const MainSite = () => {
@@ -13,6 +13,8 @@ const MainSite = () => {
             <Tech />
             <Websites />
             <Projects />
+            <Achievements />
+            <Contact />
             <Footer />
         </div>
     )
