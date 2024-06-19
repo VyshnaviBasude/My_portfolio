@@ -46,7 +46,7 @@ import cp from './skills/cp.png';
 import frontend from './skills/frontend.png';
 import sf from './skills/sf.png';
 import pd from './skills/pd.png';
-import admin from './skills/administrator.png';
+import administrator  from './skills/administrator.png';
 import iot from './skills/iot.png';
 import pydata from './skills/pydata.png';
 
@@ -94,7 +94,7 @@ export {
   backend,
   cp,
   frontend,
-  admin,
+  administrator,
   pd,
   sf,
   iot,
