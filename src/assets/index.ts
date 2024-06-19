@@ -32,6 +32,7 @@ import Ssms from './tech/Ssms.jpg';
 import PowerBi from './tech/PowerBi.png';
 import jenkins from './tech/jenkins.png';
 import kubernetes from './tech/kubernetes.png';
+import vuejs from './tech/vuejs.png'
 
 
 import leetcodeLight from './social/leetcodeLight.svg';
@@ -112,4 +113,5 @@ export {
   PowerBi,
   jenkins,
   kubernetes,
+  vuejs,
 };
