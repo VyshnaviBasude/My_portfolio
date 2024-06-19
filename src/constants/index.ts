@@ -1,4 +1,4 @@
-import { backend, binaryTrees, cp, docker, uber,Azure_Migration,CICD, frontend,sf, kafka, object, linkedList, redis,administrator,pd,iot,pydata } from '../assets';
+import { backend, binaryTrees, cp, docker, uber,Azure_Migration,CICD, frontend,sf, kafka, object, linkedList, redis,Administrator,pd,iot,pydata } from '../assets';
 import { python,cpp,c,salesforce, sql, django, css, git, html,azure,Ssms,PowerBi,jenkins,kubernetes, javascript, mongodb, nodejs, reactjs, tailwind, typescript, } from '../assets';
 
 export const resumeLink = "https://drive.google.com/file/d/1X-OYcOw_suhzjxOhxSub1Z5I2z4A7J47/preview";
@@ -111,7 +111,7 @@ export const projects = [
 
 ]
 export const achievements = [
-    {title: "Certified Salesforce Administrator", icon: administrator,link: "https://www.salesforce.com/trailblazer/profile"}, 
+    {title: "Certified Salesforce Administrator", icon: Administrator,link: "https://www.salesforce.com/trailblazer/profile"}, 
     {title: "Certified Salesforce Platform Developer I", icon: pd,link: "https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=IAFDfQsllwSM52m5MtdGwPChPZ5D+RKV0mwSiGuweKj9F3Ao5j5/jvj/SPUn3MkY"}, 
     {title: "Introduction to Internet of Things", icon: iot,link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL19CS65S51470349191052891"}, 
     {title: "Data Structures in Python", icon: pydata,link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL20CS26S1PC933737"}
