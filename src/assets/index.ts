@@ -56,6 +56,7 @@ import binaryTrees from './projects/BinaryTrees.jpg';
 import uber from './projects/uber.png';
 import Azure_Migration from './projects/Azure_Migration.png';
 import CICD from './projects/CICD.png';
+import superbowl from './projects/superbowl.jpeg';
 
 export {
   logo,
@@ -105,6 +106,7 @@ export {
   uber,
   Azure_Migration,
   CICD,
+  superbowl,
   azure,
   Ssms,
   PowerBi,

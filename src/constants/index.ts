@@ -1,4 +1,4 @@
-import { backend, binaryTrees, cp, docker, uber,Azure_Migration,CICD, frontend,sf, kafka, object, linkedList, redis,Administrator,pd,iot,pydata } from '../assets';
+import { backend, binaryTrees, cp, docker, uber,Azure_Migration,CICD,superbowl, frontend,sf, kafka, object, linkedList, redis,Administrator,pd,iot,pydata } from '../assets';
 import { python,cpp,c,salesforce, sql, django, css, git, html,azure,Ssms,PowerBi,jenkins,kubernetes, javascript, mongodb, nodejs, reactjs, tailwind, typescript, } from '../assets';
 
 export const resumeLink = "https://drive.google.com/file/d/1X-OYcOw_suhzjxOhxSub1Z5I2z4A7J47/preview";
@@ -80,6 +80,14 @@ export const experience = [
 ]
 
 export const projects = [
+    {
+        title: "Super Bowl Winners ",
+        description: "This project aims to design and develop a single-page web application (SPA) using modern web technologies. The stack includes Vue.js for the front end, Node.js for the back end, and MongoDB for the database. The application will provide a seamless user experience with dynamic content rendering and efficient data handling.",
+        stack: [python],
+        link: 'https://superbowlwinners.netlify.app/',
+        source: "https://github.com/VyshnaviBasude/Super_Bowl_Frontend",
+        media: superbowl
+    },
     {
         title: "Uber Data Analysis Using Machine Learning Algorithms",
         description: "I leveraged data analytics with NLP and machine learning to enhance Uber's services by identifying patterns in their data, significantly boosting operational efficiency. Among various models, ADA Boost stood out, achieving nearly 98% accuracy in predicting Uber and Lyft sales. Continuous validation ensured our models remained precise and effective.",
