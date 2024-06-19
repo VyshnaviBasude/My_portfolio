@@ -27,7 +27,11 @@ export const frameworks = [
     {title: 'Git', icon: git, invert: false },
     {title: 'Docker', icon: docker, invert: false }, 
     {title: 'Kafka', icon: kafka, invert: true }, 
-    // {title: 'Spring Boot', icon: springboot, invert: false }, 
+    {title: 'azure', icon: azure, invert: false }, 
+    {title: 'Ssms', icon: Ssms, invert: false }, 
+    {title: 'PowerBi', icon: PowerBi, invert: false }, 
+    {title: 'jenkins', icon: jenkins, invert: false }, 
+    {title: 'kubernetes', icon: kubernetes, invert: false }, 
 ]
 
 export const languages = [

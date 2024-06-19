@@ -1,4 +1,5 @@
-import logo from "./logo.svg";
+
+import logo from "./logo.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import comp from "./comp.png";
@@ -55,7 +56,6 @@ import binaryTrees from './projects/BinaryTrees.jpg';
 import uber from './projects/uber.png';
 import Azure_Migration from './projects/Azure_Migration.png';
 import CICD from './projects/CICD.png';
-
 
 export {
   logo,
