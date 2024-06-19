@@ -75,7 +75,7 @@ export const experience = [
     {
         title: 'My Portfolio', 
         description: 'My Portfolio', 
-        stack: [reactjs, typescript],
+        stack: [html,css,javascript,typescript],
         link: '',
         source: "https://github.com/VyshnaviBasude/My_portfolio"
     },
